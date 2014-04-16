@@ -9,7 +9,9 @@
 
 
 	<target name="release" description="" depends="compile.swc, asdoc, fat.swc">
-		<!-- TODO: tests? -->
+		<delete includeemptydirs="true">
+			<fileset dir="${asdoc.dir}" />
+		</delete>
 	</target>
 
 	<target name="compile.swc">

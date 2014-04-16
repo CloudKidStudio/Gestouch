@@ -1,5 +1,4 @@
 _resources/
-bin/
 bin-debug/
 bin-release/
 wiki/
@@ -8,7 +7,6 @@ wiki/
 
 Thumbs.db
 .DS_Store
-build.properties
 
 # Intellij project files
 *.iml
